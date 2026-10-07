@@ -86,3 +86,14 @@ See `example/consumer_plugin.py` and `example/api_usage.sh` for complete example
 ## License
 
 MIT License.
+
+## 未来任务页面
+
+插件详情页中打开“未来任务”Page，即可新建任务：
+
+- 指定时间：选择带时区的执行时间，到点调用已注册回调
+- 行为触发：消息包含关键词或匹配正则时调用回调
+- 支持冷却时间和最多触发次数
+- 回调只允许选择已注册名称，不执行任意代码
+
+页面路由由 AstrBot 自动提供，不会额外监听端口。

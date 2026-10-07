@@ -1,5 +1,5 @@
 name: astrbot_plugin_local_task_bus
 display_name: 本地任务总线
 desc: 为其他插件提供进程内回调、定时任务和每条消息触发能力，不新增端口。
-version: v0.1.0
+version: v0.2.0
 author: local
